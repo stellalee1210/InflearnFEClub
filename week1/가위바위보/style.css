@@ -1,0 +1,65 @@
+body{
+    
+    text-align: center;
+
+    margin-top: 200px;
+    background-color: tomato;
+    color: white;
+}
+
+#score{
+    display: inline-block;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+#choice-left{
+    margin-top: -20px;
+    font-size: 10px;
+}
+
+.choice-buttons{
+    margin-top: 30px;
+}
+
+#scissor{
+    margin-right: 100px;
+    border : none;
+    border-radius: 5px;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#rock{
+    margin-right: 100px;
+    border : none;
+    border-radius: 5px;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#paper{
+    border-radius: 5px;
+    border : none;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.restart-button{
+    border : none;
+    border-radius: 5px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}

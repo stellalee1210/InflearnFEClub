@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document Object</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet" type="text/css" />   
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+    </style>
+        
+</head>
+
+<body>
+    <div class = title><h1>가위 바위 보</h1></div>
+    <div class = 'players'>
+        <div id = 'score'>
+            <h4>플레이어</h4>
+            <h4 id = 'player-score-number'>0</h4>
+        </div>
+        <div id = 'score'>
+            <h4>컴퓨터</h4>
+            <h4 id = 'computer-score-number'>0</h4>
+        </div>
+    </div>
+
+    <div class ="choice">
+        <h3>선택하기</h3>
+        <h5 id ='choice-left'>남은 횟수 : 10</h5>
+        <div class ="choice-buttons">
+            <button id = 'scissor'>가위</button>
+            <button id = 'rock'>바위</button>
+            <button id = 'paper'>보</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
